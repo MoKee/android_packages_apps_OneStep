@@ -11,4 +11,7 @@ LOCAL_PRIVILEGED_MODULE := true
 
 LOCAL_USE_FRAMEWORK_SMARTISANOS := true
 LOCAL_PACKAGE_NAME := Sidebar
+
+LOCAL_JAVA_LIBRARIES := framework-smartisanos-res smartisanos
+
 include $(BUILD_PACKAGE)
