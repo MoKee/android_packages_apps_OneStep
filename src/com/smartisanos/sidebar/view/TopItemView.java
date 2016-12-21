@@ -50,7 +50,7 @@ public class TopItemView extends FrameLayout implements ITopItem {
         super(context, attrs, defStyleAttr, defStyleRes);
 
         TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.TopItemView);
-        mIconContentPaddingTop = ta.getDimensionPixelSize(R.styleable.TopItemView_icon_content_paddingTop, 0);
+        mIconContentPaddingTop = ta.getDimensionPixelSize(R.styleable.TopItemView_iconContentPaddingTop, 0);
     }
 
     @Override
