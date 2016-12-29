@@ -6,15 +6,36 @@
   <string name="topbar_file">Soubory</string>
   <string name="topbar_clipboard">Clipboard</string>
   <string name="topbar_bookmark">Záložka</string>
+  <string name="title_photo">Nedávné obrázky</string>
   <string name="title_file">Nedávné soubory</string>
+  <string name="title_bookmark">Nedávné záložky</string>
+  <string name="add_application_shortcut">Klepnutím přidat zástupce aplikace</string>
+  <string name="add_contact_dingding">Dingding kontakt</string>
+  <string name="add_contact_wechat">WeChat kontakt</string>
+  <string name="add_contact_mail">E-mailový kontakt</string>
+  <string name="add_contact_mms">Kontakt zasílání zpráv</string>
+  <string name="open_gallery">Otevřít alba</string>
+  <string name="title_confirm_delete_history_photo">Vymazání historie neodstraní obrázky</string>
+  <string name="title_confirm_delete_history_file">Vymazání historie neodstraní soubory</string>
+  <string name="title_confirm_delete_history_clipboard">Obsah schránky nelze obnovit po smazání</string>
+  <string name="title_confirm_delete_bookmark">Záložky nelze obnovit po smazání.</string>
   <string name="clear">Smazat vše</string>
   <string name="back_text">Zpět</string>
   <!-- uninstall -->
   <string name="uninstall_app_dialog_title">Upozornění</string>
+  <string name="uninstall_app_dialog_text">Odstranit \"%1$s\" z postranního panelu?</string>
   <string name="text_copied">Text byl zkopírován</string>
+  <string name="photo_empty_text">Historie obrázků je prázdná</string>
   <string name="photo_empty_hint">Zde se zobrazí nedávné obrázky</string>
+  <string name="file_empty_text">Historie souborů je prázdná</string>
+  <string name="file_empty_hint">Zde se zobrazí nedávné soubory</string>
   <string name="clipboard_empty_text">Schránka je prázdná</string>
   <!-- pending event -->
+  <string name="pending_ongoing">Zpracovávám...</string>
+  <string name="pending_fail">Akce neúspěšná</string>
+  <string name="pending_cancel">Zrušeno</string>
+  <string name="fail_to_load_image">Nemohl být načten obrázek</string>
+  <string name="bookmark_empty_text">Žádné záložky</string>
   <string name="share_component_name">Přidat do záložek</string>
   <string name="bookmark_source">Od:</string>
   <string name="date_label_today">Dnes</string>
