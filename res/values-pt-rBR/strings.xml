@@ -4,9 +4,11 @@
   <string name="app_name">Um Passo</string>
   <string name="topbar_photo">Imagens</string>
   <string name="topbar_file">Arquivos</string>
+  <string name="topbar_clipboard">Área de transferência</string>
   <string name="topbar_bookmark">Favorito</string>
   <string name="title_photo">Imagens recentes</string>
   <string name="title_file">Arquivos Recentes</string>
+  <string name="title_clipboard">Texto recente da área de transferência</string>
   <string name="title_bookmark">Favoritos recentes</string>
   <string name="add_application_shortcut">Toque para adicionar atalho App</string>
   <string name="add_contact_dingding">Contato Dingding</string>
@@ -29,6 +31,7 @@
   <string name="photo_empty_hint">Imagens recentes aparecerá aqui</string>
   <string name="file_empty_text">Histórico de arquivos está vazio</string>
   <string name="file_empty_hint">Os arquivos recentes aparecerão aqui</string>
+  <string name="clipboard_empty_text">A área de transferência está vazia</string>
   <string name="clipboard_empty_hint">O texto cortado e copiado recentemente aparecerá aqui</string>
   <!-- pending event -->
   <string name="pending_ongoing">Trabalhando...</string>
@@ -46,4 +49,15 @@
   <string name="date_label_earlier">Mais velhos</string>
   <string name="load_more">Mostrar Mais</string>
   <string name="add_item_to_sidebar">Adicionar conteúdo Springboard</string>
+  <string name="add_contact_to_sidebar">Adicionar atalho de contato</string>
+  <string name="add_app_to_sidebar">Adicionar atalho de aplicativo</string>
+  <string name="add_share_to_sidebar">Adicionar atalho de compartilhamento</string>
+  <string name="switch_previous_app">Interruptor para App última</string>
+  <string name="switch_previous_app_hint">Uma vez lançado, você pode tocar no botão \"Switch\" no Springboard para voltar ao último app.</string>
+  <string name="contact_added">Adicionado</string>
+  <string name="add_at_most_contact_number">Você pode ter até %d atalhos de contato.</string>
+  <string name="add_at_most_app_number">Você pode ter até %d app atalhos.</string>
+  <string name="add_at_most_share_number">Você pode ter até %d compartilhando atalhos.</string>
+  <string name="hint_sort_by_long_press">Você pode reorganizar os ícones da Springboard primeiro pressionando e segurando um deles.</string>
+  <string name="introduction_text">Introdução</string>
 </resources>

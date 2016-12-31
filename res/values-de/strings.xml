@@ -14,12 +14,14 @@
   <string name="add_contact_dingding">Dingding Kontakt</string>
   <string name="add_contact_wechat">WeChat Kontakt</string>
   <string name="add_contact_mail">E-Mail-Kontakt</string>
+  <string name="add_contact_mms">Messenger Kontakt</string>
   <string name="open_gallery">Öffne Album</string>
   <string name="title_confirm_delete_history_photo">Leeren des Verlaufs wird keine Bilder löschen</string>
   <string name="title_confirm_delete_history_file">Leeren des Verlaufs wird keine Dateien löschen</string>
   <string name="title_confirm_delete_history_clipboard">Inhalt der Zwischenablage kann nicht wiederhergestellt werden, nachdem sie geleert wurde</string>
   <string name="title_confirm_delete_bookmark">Lesezeichen können nicht wiederhergestellt werden, nachdem sie gelöscht wurden.</string>
   <string name="clear">Löschen</string>
+  <string name="add_wechat_hint">Drücken Sie im WeChat das \"Drei-Punkte\" Symbol oben rechts in der Freunde Details um eine Verknüpfung für diesen Freund im Launcher zu platzieren</string>
   <string name="back_text">Zurück</string>
   <!-- uninstall -->
   <string name="uninstall_app_dialog_title">Hinweis</string>
@@ -46,11 +48,16 @@
   <string name="date_label_last_month">Innerhalb eines Monats</string>
   <string name="date_label_earlier">Ältere</string>
   <string name="load_more">Mehr anzeigen</string>
+  <string name="add_item_to_sidebar">Springboard Inhalt hinzufügen</string>
   <string name="add_contact_to_sidebar">Kontakt Verknüpfung hinzufügen</string>
   <string name="add_app_to_sidebar">App-Verknüpfung hinzufügen</string>
+  <string name="add_share_to_sidebar">Springboard Verknüpfung hinzufügen</string>
   <string name="switch_previous_app">Zur letzten App wechseln</string>
+  <string name="switch_previous_app_hint">Einmal gestartet, könne Sie durch tippen des \"Switch\" Schalters im Springboard zurück zur letzten App gelangen.</string>
   <string name="contact_added">Hinzugefügt</string>
   <string name="add_at_most_contact_number">Sie können bis zu %d Kontakt Verknüpfungen haben.</string>
   <string name="add_at_most_app_number">Sie können bis zu %d App Verknüpfungen haben.</string>
+  <string name="add_at_most_share_number">Sie können bis zu %d \"share\" Verknüpfungen haben.</string>
+  <string name="hint_sort_by_long_press">Sie können Springboard Symbole neu anordnen, indem Sie es gedrückt halten.</string>
   <string name="introduction_text">Einführung</string>
 </resources>

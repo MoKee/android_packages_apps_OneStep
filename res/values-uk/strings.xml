@@ -10,7 +10,7 @@
   <string name="title_file">Останні файли</string>
   <string name="title_clipboard">Останні тексти в буфері обміну</string>
   <string name="title_bookmark">Останні закладки</string>
-  <string name="add_application_shortcut">Торкніться Додати ярлик програми</string>
+  <string name="add_application_shortcut">Торкніться Додати ярлик додатку</string>
   <string name="add_contact_dingding">Контакт Dingding</string>
   <string name="add_contact_wechat">Контакт Wechat</string>
   <string name="add_contact_mail">Контакт пошти</string>
@@ -30,12 +30,12 @@
   <string name="photo_empty_text">Історія зображень є порожньою</string>
   <string name="photo_empty_hint">Останні зображення з\'являться тут</string>
   <string name="file_empty_text">Історія файлів порожня</string>
-  <string name="file_empty_hint">Останні файли з\'являються тут</string>
+  <string name="file_empty_hint">Останні файли з\'являться тут</string>
   <string name="clipboard_empty_text">Буфер обміну порожній</string>
   <string name="clipboard_empty_hint">Останній текст з\'явиться тут</string>
   <!-- pending event -->
   <string name="pending_ongoing">В процесі...</string>
-  <string name="pending_fail">Операція невдалась</string>
+  <string name="pending_fail">Операція не вдалась</string>
   <string name="pending_cancel">Скасовано</string>
   <string name="fail_to_load_image">Не вдається завантажити зображення</string>
   <string name="bookmark_empty_text">Немає закладок</string>
@@ -50,13 +50,13 @@
   <string name="load_more">Показати більше</string>
   <string name="add_item_to_sidebar">Додавання вмісту Springboard</string>
   <string name="add_contact_to_sidebar">Додати ярлик контакту</string>
-  <string name="add_app_to_sidebar">Додати ярлик програми</string>
+  <string name="add_app_to_sidebar">Додати ярлик додатку</string>
   <string name="add_share_to_sidebar">Додати ярлик обміну</string>
   <string name="switch_previous_app">Переключитися до останнього додатку</string>
-  <string name="switch_previous_app_hint">Після включення ви можете клікати на “Переключення” щоб переключитися до попереднього додатку.</string>
+  <string name="switch_previous_app_hint">Після увімкнення ви можете клікати на “Переключення” щоб переключитися до попереднього додатку.</string>
   <string name="contact_added">Додано</string>
   <string name="add_at_most_contact_number">Ви можете мати до %d ярликів контактів.</string>
-  <string name="add_at_most_app_number">Ви можете мати до %d ярликів програм.</string>
+  <string name="add_at_most_app_number">Ви можете мати до %d ярликів додатків.</string>
   <string name="add_at_most_share_number">Ви можете мати до %d ярликів обміну.</string>
   <string name="hint_sort_by_long_press">Можна впорядкувати значки Springboard затиснувши один з них.</string>
   <string name="introduction_text">Введення</string>
