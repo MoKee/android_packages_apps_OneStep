@@ -21,7 +21,7 @@
   <string name="title_confirm_delete_history_clipboard">清空剪贴板内容将无法恢复</string>
   <string name="title_confirm_delete_bookmark">清空收藏内容将无法恢复</string>
   <string name="clear">清空</string>
-  <string name="add_wechat_hint">打开微信通讯录，点击你要添加的好友，进入好友详细资料界面，点击右上角图标，选择“添加到桌面”。移除桌面联系人时，侧边栏联系人不会消失</string>
+  <string name="add_wechat_hint">打开微信通讯录，点击您要添加的好友，进入好友详细资料界面，点击右上角图标，选择“添加到桌面”。移除桌面联系人时，侧边栏联系人不会消失。</string>
   <string name="back_text">返回</string>
   <!-- uninstall -->
   <string name="uninstall_app_dialog_title">提示</string>
@@ -39,7 +39,7 @@
   <string name="pending_cancel">已取消</string>
   <string name="fail_to_load_image">无法加载此图片</string>
   <string name="bookmark_empty_text">书签为空</string>
-  <string name="bookmark_empty_hint">你可以在各应用中，通过点击\"分享-添加到书签\"，或复制链接将其中的文章图片等添加到书签</string>
+  <string name="bookmark_empty_hint">您可以在各应用中，通过点击“分享-添加到书签”，或复制链接并将其中的文章图片等添加到书签。</string>
   <string name="share_component_name">添加收藏</string>
   <string name="bookmark_source">来自:</string>
   <string name="date_label_today">今天</string>
@@ -53,7 +53,7 @@
   <string name="add_app_to_sidebar">添加边栏应用快捷方式</string>
   <string name="add_share_to_sidebar">添加拖拽分享快捷方式</string>
   <string name="switch_previous_app">切换上一个应用</string>
-  <string name="switch_previous_app_hint">开启后，你可以通过点击边栏上的“切换按钮”快速切换上一个应用</string>
+  <string name="switch_previous_app_hint">开启后，您可以通过点击边栏上的“切换按钮”快速切换到上一个应用。</string>
   <string name="contact_added">已添加</string>
   <string name="add_at_most_contact_number">最多可添加 %d 个联系人快捷方式</string>
   <string name="add_at_most_app_number">最多可添加 %d 个应用快捷方式</string>

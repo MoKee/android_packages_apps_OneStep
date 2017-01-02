@@ -5,8 +5,11 @@
   <string name="topbar_photo">Fotoğraflar</string>
   <string name="topbar_file">Dosyalar</string>
   <string name="topbar_clipboard">Pano</string>
+  <string name="topbar_bookmark">Yer ımi</string>
   <string name="title_photo">Son görüntüler</string>
   <string name="title_file">Son kullanılan dosyalar</string>
+  <string name="title_clipboard">Son Panodaki metni</string>
+  <string name="title_bookmark">Son yer imleri</string>
   <string name="add_application_shortcut">App kısayoldan eklemek için dokunun</string>
   <string name="add_contact_dingding">Dingding iletişim</string>
   <string name="add_contact_wechat">WeChat iletişim</string>
@@ -15,11 +18,14 @@
   <string name="open_gallery">Albümleri Aç</string>
   <string name="title_confirm_delete_history_photo">Takas Tarih resimleri silmez</string>
   <string name="title_confirm_delete_history_file">Takas Tarih dosyaları silmez</string>
+  <string name="title_confirm_delete_history_clipboard">Pano içeriği temizlendiğinde geri alınamıyor</string>
+  <string name="title_confirm_delete_bookmark">Yer İşaretleri Bir Kez Silindiğinde Kurtarılamaz.</string>
   <string name="clear">Temiz</string>
   <string name="add_wechat_hint">Bir kez WeChat, bir arkadaş ayrıntıları sayfaya baktığınız ve o arkadaşına Launcher için bir kısayol eklemek için sağ üst köşesindeki \"üç nokta\" simgesine dokunun</string>
   <string name="back_text">Geri</string>
   <!-- uninstall -->
   <string name="uninstall_app_dialog_title">Uyarı</string>
+  <string name="uninstall_app_dialog_text">\"%1$s\" yan Panelden kaldırılsın mı?</string>
   <string name="text_copied">Kopyalanan metin</string>
   <string name="photo_empty_text">Resim geçmişi boştur</string>
   <string name="photo_empty_hint">Son görüntüler burada görünür</string>
@@ -32,6 +38,9 @@
   <string name="pending_fail">Eylem başarısız</string>
   <string name="pending_cancel">İptal</string>
   <string name="fail_to_load_image">Görüntü yüklenemiyor</string>
+  <string name="bookmark_empty_text">Yer ımi yok</string>
+  <string name="bookmark_empty_hint">Yer İşaretlerine ekle veya bağlantıyı kopyalayıp sayfanın metin ve resimlerini Yer İşaretlerine ekle</string>
+  <string name="share_component_name">Yer imlerine ekle</string>
   <string name="bookmark_source">Kim:</string>
   <string name="date_label_today">Bugün</string>
   <string name="date_label_yesterday">Dün</string>
@@ -40,7 +49,15 @@
   <string name="date_label_earlier">Eskiler</string>
   <string name="load_more">Daha fazla göster</string>
   <string name="add_item_to_sidebar">Sıçrama tahtası içeri ekleme</string>
+  <string name="add_contact_to_sidebar">Kişi kısayoldan ekle</string>
+  <string name="add_app_to_sidebar">App kısayoldan ekle</string>
+  <string name="add_share_to_sidebar">Kısayol paylaşımı ekle</string>
   <string name="switch_previous_app">Son App geçin</string>
+  <string name="switch_previous_app_hint">Bir kez başlatılan, geri son app atlamak için sıçrama tahtasındaki \"Switch\" butonuna dokunabilirsiniz.</string>
   <string name="contact_added">Eklendi</string>
+  <string name="add_at_most_contact_number">%d\'ye kadar kontak kısayolunuza sahip olabilirsiniz.</string>
+  <string name="add_at_most_app_number">%d\'ye kadar uygulama kısayoluna sahip olabilirsiniz.</string>
+  <string name="add_at_most_share_number">%d\'ye kadar paylaşım kısayolunuza sahip olabilirsiniz.</string>
+  <string name="hint_sort_by_long_press">İlk olarak, bunlardan birini basıp basılı tutarak, Yaylı Halo simgelerini yeniden düzenleyebilirsiniz.</string>
   <string name="introduction_text">Giriş</string>
 </resources>
