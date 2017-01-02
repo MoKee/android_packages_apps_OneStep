@@ -1,39 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:background="@android:color/white"
     android:gravity="center_vertical"
-    android:layout_width="match_parent"
-    android:layout_height="60dp" >
+    android:paddingBottom="15dp"
+    android:paddingTop="16dp"
+    android:theme="@style/Theme.AppCompat.Light">
+
     <RelativeLayout
         android:id="@+id/icon_group"
         android:layout_width="34dp"
         android:layout_height="31dp"
         android:layout_marginLeft="12dp">
+
         <ImageView
             android:id="@+id/item_icon"
             android:layout_width="29dp"
             android:layout_height="29dp"
+            android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"/>
+            tools:src="#EEE" />
+
         <View
             android:layout_width="16dp"
             android:layout_height="16dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
-            android:background="@drawable/drag_in"/>
+            android:background="@drawable/drag_in" />
+
     </RelativeLayout>
+
     <TextView
         android:id="@+id/item_title"
         android:layout_width="0dp"
-        android:layout_weight="1"
         android:layout_height="wrap_content"
         android:layout_marginLeft="12dp"
+        android:layout_weight="1"
         android:singleLine="true"
-        android:textColor="@color/setting_item_text_color"
-        android:textSize="18sp" />
-    <smartisanos.widget.SwitchEx
+        android:textSize="18sp"
+        tools:text="应用名称" />
+
+    <Switch
         android:id="@+id/item_switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="18dp" />
+        android:layout_marginRight="16dp" />
+
 </LinearLayout>

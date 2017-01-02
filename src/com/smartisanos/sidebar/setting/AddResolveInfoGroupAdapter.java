@@ -1,8 +1,5 @@
 package com.smartisanos.sidebar.setting;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
@@ -11,42 +8,44 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.CompoundButton;
-import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.CompoundButton.OnCheckedChangeListener;
+import android.widget.ImageView;
+import android.widget.Switch;
+import android.widget.TextView;
 
 import com.smartisanos.sidebar.R;
 import com.smartisanos.sidebar.util.ResolveInfoGroup;
 import com.smartisanos.sidebar.util.ResolveInfoManager;
 
-import smartisanos.widget.SwitchEx;
+import java.util.ArrayList;
+import java.util.List;
 
 public final class AddResolveInfoGroupAdapter extends BaseAdapter {
 
     private Context mContext;
     private List<Item> mList = new ArrayList<Item>();
 
+    private ResolveInfoManager.ResolveInfoUpdateListener mUpdateListener =
+            new ResolveInfoManager.ResolveInfoUpdateListener() {
+                @Override
+                public void onUpdate() {
+                    new Handler(Looper.getMainLooper()).post(new Runnable() {
+                        @Override
+                        public void run() {
+                            onDataChange();
+                        }
+                    });
+                }
+            };
+
     public AddResolveInfoGroupAdapter(Context context) {
         mContext = context;
         refreshData();
     }
 
-    private ResolveInfoManager.ResolveInfoUpdateListener mUpdateListener = new ResolveInfoManager.ResolveInfoUpdateListener() {
-        @Override
-        public void onUpdate() {
-            new Handler(Looper.getMainLooper()).post(new Runnable() {
-                @Override
-                public void run() {
-                    onDataChange();
-                }
-            });
-        }
-    };
-
     private void onDataChange() {
         for (Item item : mList) {
-            boolean added = ResolveInfoManager.getInstance(mContext).isResolveInfoGroupAdded(item.rig);
-            item.checked = added;
+            item.checked = ResolveInfoManager.getInstance(mContext).isResolveInfoGroupAdded(item.rig);
         }
         notifyDataSetChanged();
     }
@@ -98,7 +97,7 @@ public final class AddResolveInfoGroupAdapter extends BaseAdapter {
             vh = new ViewHolder();
             vh.iconView = (ImageView) view.findViewById(R.id.item_icon);
             vh.titleView = (TextView) view.findViewById(R.id.item_title);
-            vh.switchView = (SwitchEx) view.findViewById(R.id.item_switch);
+            vh.switchView = (Switch) view.findViewById(R.id.item_switch);
             view.setTag(vh);
         } else {
             vh = (ViewHolder) view.getTag();
@@ -110,7 +109,7 @@ public final class AddResolveInfoGroupAdapter extends BaseAdapter {
         vh.switchView.setOnCheckedChangeListener(new OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView,
-                    boolean isChecked) {
+                                         boolean isChecked) {
                 if (item.checked == isChecked) {
                     return;
                 }
@@ -132,7 +131,7 @@ public final class AddResolveInfoGroupAdapter extends BaseAdapter {
     final class ViewHolder {
         public ImageView iconView;
         public TextView titleView;
-        public SwitchEx switchView;
+        public Switch switchView;
     }
 
     private final class Item {
@@ -144,4 +143,5 @@ public final class AddResolveInfoGroupAdapter extends BaseAdapter {
             this.checked = checked;
         }
     }
+
 }
