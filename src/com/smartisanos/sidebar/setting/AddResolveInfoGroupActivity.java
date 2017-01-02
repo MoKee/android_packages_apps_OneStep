@@ -10,8 +10,9 @@ import com.smartisanos.sidebar.SidebarController;
 import com.smartisanos.sidebar.SidebarStatus;
 import com.smartisanos.sidebar.util.Utils;
 
-public class AddResolveInfoGroupActivtiy extends BaseActivity {
-    private static final String TAG = AddResolveInfoGroupActivtiy.class.getName();
+public class AddResolveInfoGroupActivity extends BaseActivity {
+
+    private static final String TAG = AddResolveInfoGroupActivity.class.getName();
 
     private static final int MAX_TIMES = 5;
     private static final String KEY_TIMES = "hint_sort_by_long_press_times";
@@ -55,4 +56,5 @@ public class AddResolveInfoGroupActivtiy extends BaseActivity {
         SidebarController.getInstance(getApplicationContext()).requestStatus(
                 SidebarStatus.NORMAL);
     }
+
 }
