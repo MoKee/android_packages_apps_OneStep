@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/app_name">
+
+    <PreferenceCategory android:title="@string/add_item_to_sidebar">
+
+        <PreferenceScreen
+            android:icon="@drawable/ic_add_contact_24dp"
+            android:key="add_contact_to_sidebar"
+            android:title="@string/add_contact_to_sidebar">
+
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.smartisanos.sidebar.setting.AddContactActivity"
+                android:targetPackage="com.smartisanos.sidebar" />
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:icon="@drawable/ic_add_app_24dp"
+            android:key="add_app_to_sidebar"
+            android:title="@string/add_app_to_sidebar">
+
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.smartisanos.sidebar.setting.AddApplicationActivity"
+                android:targetPackage="com.smartisanos.sidebar" />
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:icon="@drawable/ic_add_share_24dp"
+            android:key="add_share_to_sidebar"
+            android:title="@string/add_share_to_sidebar">
+
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.smartisanos.sidebar.setting.AddResolveInfoGroupActivity"
+                android:targetPackage="com.smartisanos.sidebar" />
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
