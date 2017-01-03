@@ -210,7 +210,9 @@
         <activity
             android:name=".setting.AddContactActivity"
             android:excludeFromRecents="true"
-            android:screenOrientation="portrait" />
+            android:label="@string/add_contact_to_sidebar"
+            android:screenOrientation="portrait"
+            android:theme="@style/SettingTheme.Dialog" />
 
         <activity
             android:name=".setting.AddApplicationActivity"
