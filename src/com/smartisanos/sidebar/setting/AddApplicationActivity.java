@@ -6,20 +6,21 @@ import android.widget.ListView;
 import com.smartisanos.sidebar.R;
 
 public class AddApplicationActivity extends BaseActivity {
-    private static final String TAG = AddApplicationActivity.class.getName();
 
-    private ListView mListView;
     private AddApplicationAdapter mAdapter;
+
+    @Override
+    protected int provideContentView() {
+        return R.layout.add_app_activity;
+    }
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.add_app_activity);
-        getWindow().setBackgroundDrawable(null);
 
-        mListView = (ListView) findViewById(R.id.list_view);
         mAdapter = new AddApplicationAdapter(this.getApplicationContext());
+
+        final ListView mListView = (ListView) findViewById(R.id.list_view);
         mListView.setAdapter(mAdapter);
-        setupBackBtnOnTitle();
     }
 
     @Override
@@ -33,4 +34,5 @@ public class AddApplicationActivity extends BaseActivity {
         super.onStop();
         mAdapter.onStop();
     }
+
 }
