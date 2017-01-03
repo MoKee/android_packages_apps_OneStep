@@ -53,7 +53,7 @@
   <string name="add_app_to_sidebar">Tambah Pintasan Apl</string>
   <string name="add_share_to_sidebar">Tambah Pintasan Berbagi</string>
   <string name="switch_previous_app">Beralih ke aplikasi terakhir</string>
-  <string name="switch_previous_app_hint">Setelah diluncurkan, Anda dapat ketuk tombol \"Beralih\" pada Springboard untuk melompat kembali ke app.</string>
+  <string name="switch_previous_app_hint">Setelah diluncurkan, anda dapat ketuk tombol \"Beralih\" pada Springboard untuk melompat kembali ke app.</string>
   <string name="contact_added">Ditambahkan</string>
   <string name="add_at_most_contact_number">Anda dapat memiliki hingga %d pintasan kontak.</string>
   <string name="add_at_most_app_number">Anda dapat memiliki hingga %d pintasan aplikasi.</string>
