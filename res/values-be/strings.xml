@@ -53,7 +53,7 @@
   <string name="add_app_to_sidebar">Дадаць прыкладанне</string>
   <string name="add_share_to_sidebar">Дадаць ярлык агульны доступ</string>
   <string name="switch_previous_app">Пераключыцца да апошняга дадатку</string>
-  <string name="switch_previous_app_hint">Пасля ўключэнне вы можаце клікаць на бакавым аддзеле \"Пераключэнне\" каб пераключыць да папярэдняга дадатка.</string>
+  <string name="switch_previous_app_hint">Пасля ўключэнне вы можаце клікаць на бакавым аддзеле \"Пераключэнне\" каб пераключыць да папярэдняга прыкладання.</string>
   <string name="contact_added">Дадаць</string>
   <string name="add_at_most_contact_number">Вы можаце мець да %d кантактных цэтлікаў.</string>
   <string name="add_at_most_app_number">Вы можаце мець да %d цэтлікаў для прыкладанняў.</string>
