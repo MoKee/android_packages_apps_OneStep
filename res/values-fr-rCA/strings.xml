@@ -10,19 +10,35 @@
   <string name="title_bookmark">Favoris récents</string>
   <string name="add_contact_dingding">Contact Dingding</string>
   <string name="add_contact_wechat">Contact WeChat</string>
+  <string name="title_confirm_delete_history_photo">Effacer l\'historique ne supprimera pas les photos</string>
+  <string name="title_confirm_delete_history_file">Effacer l\'historique ne supprimera pas les fichiers</string>
+  <string name="title_confirm_delete_history_clipboard">Le contenu du presse-papier ne peut être récupéré une fois effacé</string>
+  <string name="title_confirm_delete_bookmark">Les favoris ne peuvent être récupérés une fois effacés.</string>
+  <string name="clear">Supprimer</string>
   <string name="back_text">Annuler</string>
   <!-- uninstall -->
+  <string name="uninstall_app_dialog_title">Avis</string>
   <string name="text_copied">Le texte a bien été copié</string>
+  <string name="photo_empty_text">L\'historique de photo est vide</string>
+  <string name="photo_empty_hint">Les photos récentes apparaîtront ici</string>
+  <string name="file_empty_text">L\'istorique des fichiers est vide</string>
+  <string name="file_empty_hint">Les fichiers récents apparaîtront ici</string>
   <string name="clipboard_empty_text">Le presse-papier est vide</string>
   <!-- pending event -->
   <string name="pending_ongoing">Chargement...</string>
   <string name="pending_fail">Échec de l\'action</string>
+  <string name="pending_cancel">Annulée</string>
+  <string name="fail_to_load_image">Impossible de charger la photo</string>
   <string name="bookmark_empty_text">Aucun favoris</string>
   <string name="share_component_name">Ajouter aux favoris</string>
   <string name="bookmark_source">De :</string>
   <string name="date_label_today">Aujourd\'hui</string>
   <string name="date_label_yesterday">Hier</string>
   <string name="date_label_last_week">7 derniers jours</string>
+  <string name="date_label_last_month">Au cours du mois</string>
+  <string name="date_label_earlier">Plus anciens</string>
+  <string name="load_more">Afficher plus</string>
+  <string name="switch_previous_app">Basculer vers la dernière application</string>
   <string name="contact_added">Ajouté</string>
   <string name="introduction_text">Présentation</string>
 </resources>

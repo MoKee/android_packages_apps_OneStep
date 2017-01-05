@@ -4,11 +4,14 @@
   <string name="app_name">Un passo</string>
   <string name="topbar_photo">Immagini</string>
   <string name="topbar_file">File</string>
+  <string name="topbar_clipboard">Clipboard</string>
   <string name="topbar_bookmark">Preferito</string>
   <string name="title_photo">Immagini recenti</string>
   <string name="title_file">File recenti</string>
+  <string name="title_clipboard">Testo clipboard recente</string>
   <string name="title_bookmark">Preferiti recenti</string>
   <string name="add_application_shortcut">Tocca per aggiungere la scorciatoia dell\'app</string>
+  <string name="add_contact_dingding">Contatto Dingding</string>
   <string name="add_contact_wechat">Contatto WeChat</string>
   <string name="add_contact_mail">Contatto Email</string>
   <string name="add_contact_mms">Contatto Messaggi</string>
@@ -28,6 +31,7 @@
   <string name="photo_empty_hint">Le immagini recenti appariranno qui</string>
   <string name="file_empty_text">Cronologia dei file vuota</string>
   <string name="file_empty_hint">I file recenti appariranno qui</string>
+  <string name="clipboard_empty_text">Clipboard vuota</string>
   <string name="clipboard_empty_hint">Il testo tagliato e copiato verrà visualizzato qui</string>
   <!-- pending event -->
   <string name="pending_ongoing">Elaborazione...</string>
