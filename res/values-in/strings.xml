@@ -48,16 +48,16 @@
   <string name="date_label_last_month">Dalam sebulan</string>
   <string name="date_label_earlier">Lama</string>
   <string name="load_more">Tampilkan Lagi</string>
-  <string name="add_item_to_sidebar">Tambah konten Springboard</string>
+  <string name="add_item_to_sidebar">Tambah konten ke Papan Loncatan</string>
   <string name="add_contact_to_sidebar">Tambah Pintasan Kontak</string>
   <string name="add_app_to_sidebar">Tambah Pintasan Apl</string>
   <string name="add_share_to_sidebar">Tambah Pintasan Berbagi</string>
   <string name="switch_previous_app">Beralih ke aplikasi terakhir</string>
-  <string name="switch_previous_app_hint">Setelah diluncurkan, anda dapat ketuk tombol \"Beralih\" pada Springboard untuk melompat kembali ke app.</string>
+  <string name="switch_previous_app_hint">Setelah diluncurkan, anda dapat ketuk tombol \"Beralih\" pada Papan Loncatan untuk melompat kembali ke app.</string>
   <string name="contact_added">Ditambahkan</string>
   <string name="add_at_most_contact_number">Anda dapat memiliki hingga %d pintasan kontak.</string>
   <string name="add_at_most_app_number">Anda dapat memiliki hingga %d pintasan aplikasi.</string>
   <string name="add_at_most_share_number">Anda dapat memiliki hingga %d pintasan berbagi.</string>
-  <string name="hint_sort_by_long_press">Anda dapat mengatur ulang ikon Springboard dengan menekan terlebih dahulu lalu menahan salah satu dari mereka.</string>
+  <string name="hint_sort_by_long_press">Anda dapat mengatur ulang ikon Papan Loncatan dengan menekan terlebih dahulu lalu menahan salah satu dari mereka.</string>
   <string name="introduction_text">Pengenalan</string>
 </resources>

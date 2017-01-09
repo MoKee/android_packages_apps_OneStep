@@ -48,13 +48,16 @@
   <string name="date_label_last_month">Entro un mese</string>
   <string name="date_label_earlier">Precedente</string>
   <string name="load_more">Mostra altro</string>
+  <string name="add_item_to_sidebar">Aggiungi contenuto Springboard</string>
   <string name="add_contact_to_sidebar">Aggiungi scorciatoia contatto</string>
   <string name="add_app_to_sidebar">Aggiungi scorciatoia app</string>
   <string name="add_share_to_sidebar">Aggiungi scorciatoia condividi</string>
   <string name="switch_previous_app">Passa all\'ultima app</string>
+  <string name="switch_previous_app_hint">Una volta lanciato, è possibile toccare il pulsante \"Switch\" sul Springboard per saltare indietro all\'ultimo app.</string>
   <string name="contact_added">Aggiunto</string>
   <string name="add_at_most_contact_number">Puoi avere fino a %d scorciatoie contatto.</string>
   <string name="add_at_most_app_number">Puoi avere fino a %d scorciatoie app.</string>
   <string name="add_at_most_share_number">Puoi avere fino a %d scorciatoie condividi.</string>
+  <string name="hint_sort_by_long_press">È possibile riorganizzare le icone Springboard dal primo premendo e tenendo premuto uno di loro.</string>
   <string name="introduction_text">Introduzione</string>
 </resources>
